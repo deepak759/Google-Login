@@ -16,12 +16,10 @@ export default function App() {
 
   const configureGoogleSignIn = () => {
     GoogleSignin.configure({
-      webClientId:
-        "72307864794-vrqf4k859s84o77u52b06l2btc1ap73o.apps.googleusercontent.com",
+     
       androidClientId:
-        "72307864794-v5k7ua1dkhnb3f8s1ccnru8b5gfa70ck.apps.googleusercontent.com",
-      iosClientId:
-        "72307864794-1vuq2apibl4tg6on2f2nmoq5vul3ltvq.apps.googleusercontent.com",
+        "650833569682-dgqo9kbmrmre3v9g5o4voqbvq0ui516s.apps.googleusercontent.com"
+   
     });
   };
 
